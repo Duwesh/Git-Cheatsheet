@@ -1,26 +1,68 @@
 Git Commands (Important Commands)
 
+ ##SETUP COMMANDS
+
+ 1) git config --global user.name "[firstname lastname]"
+
+ 2) git config --global user.email "[valid-email]"
+
+ ##SETUP AND INIT 
+
  1)git init
 
- 2)git add . or git add fileName
+ 2)git clone [URL]
 
- 3)git commit -m "message to be given to the file during snapshot"
+ ##STAGE AND SNAPSHOT
 
- 4)git log
+ 1)git status
 
- 5)git status
+ 2)git add [file]
 
- 6)git clone URL
+   git add . or git add -A 
 
- 7)git checkout branchName
+ 3)git reset [file]
 
- 8)ls -a
+ 4)git diff
 
- 9)mkdir folderName
+ 5)git commit -m "[descriptive message]"
 
- 10)rm 
+ ##BRANCH AND MERGE
 
-Git Important terminologies
+ 1)git branch
+
+ 2)git branch [branch-name]
+
+ 3)git checkout [branch-name]
+
+ 4)git checkout -b [branch-name]
+
+ 5)git branch -m name newName
+
+ 6)git merge [branch]
+
+ 7)git log
+
+ ##SHARE AND UPDATE
+
+ 1)git remote add [alias] [url]
+
+ 2)git fetch
+
+ 3)git merge
+
+ 4)git push [alias] [branch]
+
+ 5)git pull
+
+ ##LINUX COMMANDS
+
+ 1)ls -a
+
+ 2)mkdir folderName
+
+ 3)git rm fileName 
+
+###Git Important terminologies
 
  1)fork ->
     (WE DO THIS BECAUSE WE CANNOT MAKE ANY CHANGES TO SOMEONES REPOSITORY WITHOUT PERMISSION SO WE FORK IT 
@@ -58,3 +100,7 @@ Git Important terminologies
 
  10)fetch
 
+ 11)configuration
+
+   POINTS:
+   1)To get out of the log menu type 'q' or 'z'
