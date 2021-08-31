@@ -1,0 +1,45 @@
+Git Commands (Important Commands)
+
+ 1)git init
+
+ 2)git add . or git add fileName
+
+ 3)git commit -m "message to be given to the file during snapshot"
+
+ 4)git log
+
+ 5)git status
+
+ 6)git clone URL
+
+ 7)ls -a
+
+ 8)mkdir folderName
+
+ 9)rm 
+
+Git Important terminologies
+
+ 1)fork ->
+    (WE DO THIS BECAUSE WE CANNOT MAKE ANY CHANGES TO SOMEONES REPOSITORY WITHOUT PERMISSION SO WE FORK IT 
+    IN SIMPLE WORDS WE MAKE A COPY OF THAT REPO IN OUR ACCOUNT, HENCE WE CAN MAKE CHANGES TO THE CODE WITH 
+    EFFECTING THE ORIGINAL REPOSITORY
+    )
+
+ 2)clone ->
+    (WE CLONE A REPO MEANS WE ARE MAKING THE COPY IN OUR LOCAL MACHINE SO THAT WE CAN MAKE CHANGES EASILY 
+    FROM OUR LOCAL MACHINE)
+
+ 3)pull request ->
+    (MAKING A PULL REQUEST MEANS WHATEVER CHANGES YOU HAVE MADE THAT IS ONLY ON YOUR REPO BUT 
+    IF YOU WANT TO ADD THE CHANGES IN THE ORIGINAL REPO THEN MAKE A PULL REQUEST TO THE OWNER 
+    OF THE REPO)
+
+ 4)push ->
+    (IF WE WANT TO ADD OUR FILES AND CODES TO THE GITHUB REPO WE NEED TO PUSH IT THERE.)
+
+ 5)commit or snapshot
+ 6)branch
+ 7)merge
+ 8)collaborate
+ 9)conflict resolve
