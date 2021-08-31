@@ -62,6 +62,8 @@ Git Commands (Important Commands)
 
  3)git rm fileName 
 
+ 4)touch fileName
+
 ###Git Important terminologies
 
  1)fork ->
@@ -104,3 +106,9 @@ Git Commands (Important Commands)
 
    POINTS:
    1)To get out of the log menu type 'q' or 'z'
+
+   2)if you want to merge one branch into master branch
+
+      STEPS:
+      1) git checkout [master-branch]
+      2) git merge [branch-name to be merged]
