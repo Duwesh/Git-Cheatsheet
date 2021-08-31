@@ -12,11 +12,13 @@ Git Commands (Important Commands)
 
  6)git clone URL
 
- 7)ls -a
+ 7)git checkout branchName
 
- 8)mkdir folderName
+ 8)ls -a
 
- 9)rm 
+ 9)mkdir folderName
+
+ 10)rm 
 
 Git Important terminologies
 
@@ -53,3 +55,6 @@ Git Important terminologies
 
  9)conflict resolve
     (ANY PROBLEM OCCURS NEEDED TO BE RESOLVED USING PROPER STEPS)
+
+ 10)fetch
+
